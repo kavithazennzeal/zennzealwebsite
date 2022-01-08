@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jqury.js"></script>
+    <title>Bike-Rider</title>
+</head>
+<body  background="img5.jpg">
+    <div class="nav-container">
+    <nav>
+    <div class="path"></div>
+    <div class="logo">
+    <img src="logo.jpg" alt="logo">
+    </div>
+    <ul class="nav-links">
+     <li><a href="#""> Home </a></li>
+     <li><a href="#""> services </a></li>
+     <li><a href="#""> contact</a></li>
+     <li><a href="#""> About Us</a></li>
+     <li><a href="#""> prices</a></li>
+     <li><a href="#""> offer </a></li>
+     <li><a href="#""> contact</a></li>
+     <br><br><br>
+    </div>
+    </ul>
+    </div><br><br>
+    </nav>
+    <div class="thumnail">
+    <li> <img src="img1.jpg" onclick="big('img1.jpg')"> </li>
+    <li> <img src="img2.jpg" onclick="big('img2.jpg')"></li>
+    <li> <img src="img3.jpg" onclick="big('img3.jpg')"></li>
+    </div>
+    <div class="big-img">
+        <img src="img4.jpg" class="big">
+    </div>
+    <div class="content">
+    <p>&#x1F525;Let's ride&#x1F525;</p>
+    <h1>Dont's fear dying fear not living</h1>
+    <h5>&#x1F525;For bike lovers & bike riders&#x1F525;</h5>
+    </div>
+    </div>
+            <div class="header">
+            <h3>Create Account</h3>
+    <form class="form" id="form">
+        <div class="form-control">
+            <label>Email</label>
+            <input type="email"placeholder="ff@gail.com"id="email">
+        </div>
+    </div>
+        </form>
+    </form>
+    <div class="form-control">
+        <label>password</label>
+        <input type="password"placeholder="password"id="password">
+    <div class="form-control">
+        <label>confirm password</label>
+        <input type="password"placeholder="confirm password"id="password2">
+    <button>submit</button>
+    </body><header></header>
+    </body>
+    <footer>
+        <h3>&copy;copyright Reserved<BR>ADDRESS DETAILS<BR>NO: 96, Villankurichi Rd, <BR>Kumudham Nagar, Cheran ma Nagar, <BR>Coimbatore, Tamil Nadu 641035</h3>
+    </footer>
+</body>
+<script>
+    function big(img4)
+    {
+        document.querySelector('.big').src=img4;
+    }
+</script>
+</html>
